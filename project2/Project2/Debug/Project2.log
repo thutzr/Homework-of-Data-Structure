@@ -1,3 +1,5 @@
 ﻿  Source.cpp
+e:\courses\data-structure\hw\project2\project2\source.cpp(45): warning C4715: 'operator>': not all control paths return a value
+e:\courses\data-structure\hw\project2\project2\source.cpp(28): warning C4715: 'operator<': not all control paths return a value
   Project2.vcxproj -> E:\Courses\Data-Structure\HW\Project2\Debug\Project2.exe
   Project2.vcxproj -> E:\Courses\Data-Structure\HW\Project2\Debug\Project2.pdb (Partial PDB)
