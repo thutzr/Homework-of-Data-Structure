@@ -1,3 +1,19 @@
 ﻿  Source.cpp
-  Project5.vcxproj -> E:\Courses\Data-Structure\HW\Project5\Debug\Project5.exe
-  Project5.vcxproj -> E:\Courses\Data-Structure\HW\Project5\Debug\Project5.pdb (Partial PDB)
+e:\courses\data-structure\hw\project5\project5\source.cpp(16): error C2131: expression did not evaluate to a constant
+  e:\courses\data-structure\hw\project5\project5\source.cpp(16): note: failure was caused by non-constant arguments or reference to a non-constant symbol
+  e:\courses\data-structure\hw\project5\project5\source.cpp(16): note: see usage of 'N'
+e:\courses\data-structure\hw\project5\project5\source.cpp(17): error C2131: expression did not evaluate to a constant
+  e:\courses\data-structure\hw\project5\project5\source.cpp(17): note: failure was caused by non-constant arguments or reference to a non-constant symbol
+  e:\courses\data-structure\hw\project5\project5\source.cpp(17): note: see usage of 'K'
+e:\courses\data-structure\hw\project5\project5\source.cpp(24): error C3863: array type 'int [K+]' is not assignable
+e:\courses\data-structure\hw\project5\project5\source.cpp(25): warning C4552: '>>': operator has no effect; expected operator with side-effect
+e:\courses\data-structure\hw\project5\project5\source.cpp(27): error C3863: array type 'int [K+]' is not assignable
+e:\courses\data-structure\hw\project5\project5\source.cpp(28): error C2065: 'k': undeclared identifier
+e:\courses\data-structure\hw\project5\project5\source.cpp(32): error C3863: array type 'int [K+]' is not assignable
+e:\courses\data-structure\hw\project5\project5\source.cpp(33): error C2065: 'm': undeclared identifier
+e:\courses\data-structure\hw\project5\project5\source.cpp(45): error C3863: array type 'int [K+]' is not assignable
+e:\courses\data-structure\hw\project5\project5\source.cpp(49): error C2664: 'char *strcpy(char *,const char *)': cannot convert argument 1 from 'char [N][10]' to 'char *'
+  e:\courses\data-structure\hw\project5\project5\source.cpp(49): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+e:\courses\data-structure\hw\project5\project5\source.cpp(50): error C2664: 'char *strcpy(char *,const char *)': cannot convert argument 1 from 'char [N][10]' to 'char *'
+  e:\courses\data-structure\hw\project5\project5\source.cpp(50): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+e:\courses\data-structure\hw\project5\project5\source.cpp(52): warning C4552: '<<': operator has no effect; expected operator with side-effect
