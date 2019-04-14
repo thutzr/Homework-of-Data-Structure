@@ -47,6 +47,7 @@ int main() {
 
 	int N;
 	cin >> N;
+	vector<vector<int> > finalResult;
 	for (int i = 0; i < N; i++) {
 		int M;
 		cin >> M;
@@ -59,10 +60,17 @@ int main() {
 			cin >> inputMid[j];
 		}
 		build(0, M-1, 0, M-1);
-		for (int k = 0; k < M; k++) {
-			cout << result[k];
+		//for (int k = 0; k < M; k++) {
+		//	cout << result[k];
+		//}
+		////cout << endl;
+		finalResult.push_back(result);
+		result.clear();
+	}
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < finalResult[i].size(); j++) {
+			cout << finalResult[i][j] << " ";
 		}
 		cout << endl;
-		result.clear();
 	}
 }
