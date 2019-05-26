@@ -1,0 +1,3 @@
+﻿  Source.cpp
+e:\courses\data-structure\hw\project14\project14\source.cpp(23): error C2664: 'int snprintf(char *const ,const std::size_t,const char *const ,...)': cannot convert argument 2 from 'const char [3]' to 'const std::size_t'
+  e:\courses\data-structure\hw\project14\project14\source.cpp(23): note: There is no context in which this conversion is possible
